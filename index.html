@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Iulian Cozmolici - Web Developer">
+    <meta name="keywords" content="Iulian Cozmolici web developer">
+    <meta name="author" content="Iulian Cozmolici">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="assets/img/icon.png">
+    <link rel="stylesheet" href="assets/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Portfolio - Iulian Cozmolici</title>
+</head>
+
+<body>
+
+    <main>
+
+        <div id="particles-js"></div>
+
+        <header id="navbar" class="navbar">
+            <div class="navbar-inner inner">
+                <a href="./index.html" class="logo">&#60; Iulian &#47;&#62;</a>
+                <button type="button" class="burger" id="burger">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </button>
+                <div class="menu" id="menu">
+                    <ul class="menu-inner">
+                        <li class="menu-item"><a href="#home" class="menu-link">HOME</a></li>
+                        <li class="menu-item"><a href="#about" class="menu-link">ABOUT</a></li>
+                        <li class="menu-item"><a href="#portfolio" class="menu-link">PORTFOLIO</a></li>
+                        <li class="menu-item"><a href="#contact" class="menu-link">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+
+        <section id="home" class="home">
+            <div class="home-inner inner">
+                <div class="home-text">
+                    <h1 class="home-name">Iulian Cozmolici</h1>
+                    <h2 class="home-title">Web Developer</h2>
+                    <p class="home-description">“Java is to Javascript what car is to Carpet.”</p>
+                    <div class="socials">
+                        <a href="https://t.me/iuliancozmolici" class="home-socials" target="_blank"><i
+                                class="fa-brands fa-telegram"></i></a>
+                        <a href="https://www.linkedin.com/in/iulian-cozmolici/" class="home-socials" target="_blank"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/iuliancozmolici" class="home-socials" target="_blank"><i
+                                class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="#about" class="btn">About me</a>
+                </div>
+                <div class="home-img">
+                    <img src="assets/img/main.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-inner inner card">
+                <div class="title">
+                    <h3>About</h3>
+                </div>
+                <div class="about-info">
+                    <div class="about-img">
+                        <img src="assets/img/main.jpg" alt="">
+                    </div>
+                    <div class="about-me">
+                        <div class="about-text">
+                            <p>Beginner Front-End Developer skilled in web application development. Interested in the IT
+                                field and always ready to learn new technologies. I work successfully both in a team and
+                                independently. Ready to apply my passion for writing code to a talented team to develop
+                                quality solutions.</p>
+                        </div>
+                        <h4 class="skills">Skills</h4>
+                        <div class="skills-list">
+                            <p class="skills-item">HTML</p>
+                            <p class="skills-item">CSS</p>
+                            <p class="skills-item">JavaScript</p>
+                            <p class="skills-item">React</p>
+                            <p class="skills-item">Wordpress</p>
+                            <p class="skills-item">Bootstrap</p>
+                            <p class="skills-item">Git</p>
+                        </div>
+                        <div class="about-tabs">
+                            <a type="button" class="tab-item active" data-target="#education">Education</a>
+                            <a type="button" class="tab-item" data-target="#experience">Experience</a>
+                        </div>
+                        <div class="tab-content active" id="education">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">2016 - 2020</span>
+                                    <h4>FINANCE AND INSURANCE - <span>Center of Excellence in Economics and Finance
+                                            (Chișinău)</span>
+                                    </h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">2020 - current</span>
+                                    <h4>INFORMATION TECHNOLOGY - <span>Technical University of Moldova (Chișinău)</span>
+                                    </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-content" id="experience">
+                            <div class="timeline">
+                                <div class="timeline-item">
+                                    <span class="date">06/2021 - 08/2021</span>
+                                    <h4>SPECIALIST IN TESTING SOFTWARE - <span>Mapsoft (Chișinau, Moldova)</span></h4>
+                                </div>
+                                <div class="timeline-item">
+                                    <span class="date">02/2022 - 04/2022</span>
+                                    <h4>PRACTICUM STUDENT - <span>WebRocks (Chișinau, Moldova)</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-btn">
+                            <a href="assets/cv/Cozmolici_Iulian_CV.pdf" class="btn cv-btn"
+                                download="Cozmolici_Iulian_CV">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <div class="portfolio-inner inner card">
+                <div class="title">
+                    <h3>Portfolio</h3>
+                </div>
+                <div class="portfolio-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="portfolio-item swiper-slide">
+                                <div class="portfolio-img">
+                                    <img src="assets/img/weather-api.jpg" alt="#">
+                                </div>
+                                <div class="overlay">
+                                    <div>
+                                        <a class="project-link"
+                                            href="https://github.com/iuliancozmolici/weather-api-app"
+                                            target="_blank">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio-item swiper-slide">
+                                <div class="portfolio-img">
+                                    <img src="assets/img/bootstrap.jpg" alt="#">
+                                </div>
+                                <div class="overlay">
+                                    <div>
+                                        <a class="project-link"
+                                            href="https://github.com/iuliancozmolici/bootstrap-single-page"
+                                            target="_blank">View Project</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="contact-inner inner card">
+                <div class="title">
+                    <h3>Contact me</h3>
+                </div>
+                <form action="" id="contact-form" class="contact-form">
+                    <input type="text" placeholder="Your name" class="name" required>
+                    <input type="email" name="" id="" placeholder="Email adress" class="email" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Write message here..." class="message"
+                        required></textarea>
+                    <input type="submit" value="Send" class="send-btn btn">
+                </form>
+            </div>
+        </section>
+
+        <footer id="footer" class="footer">
+            <div class="footer-inner inner">
+                <p class="footer-title">Iulian Cozmolici</p>
+                <div class="footer-socials">
+                    <a href="https://t.me/iuliancozmolici" class="footer-icon" target="_blank"><i
+                            class="fa-brands fa-telegram"></i></a>
+                    <a href="https://www.linkedin.com/in/iulian-cozmolici/" class="footer-icon" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/iuliancozmolici" class="footer-icon" target="_blank"><i
+                            class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("tTczL76bnOg15KDHv");
+        })();
+    </script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="https://kit.fontawesome.com/8c75cc6df2.js" crossorigin="anonymous"></script>
+    <!-- <script src="assets/swiper/swiper-bundle.min.js"></script> -->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
